@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Sighisoara City</string>
+    <!-- Hotels fragment -->
+    <string name="hotel_1_name">DoubleTree by Hilton Hotel Sighisoara - Cavaler</string>
+    <string name="hotel_1_description">Located 200 m from the Sighișoara Citadel, listed as a World
+        Heritage Site by the UNESCO, DoubleTree by Hilton Hotel Sighisoara - Cavaler offers free
+        access to a spa featuring a Finnish sauna, a steam bath, and an indoor pool.
+        \nAll the stylish, air-conditioned rooms provide a minibar and a flat-screen TV.
+        The bathrooms come with all toiletries. Some of DoubleTree by Hilton Hotel Sighisoara -
+        Cavaler’s rooms and suites have interior stairs.</string>
+    <string name="hotel_1_website">http://www.hiltonhotels.com/ro_RO/romania/doubletree-by-
+        hilton-hotel-sighisoara-cavaler/</string>
+
+    <string name="hotel_2_name">Pension Casa Saseasca</string>
+    <string name="hotel_2_description">Situated within the UNESCO-protected Sighişoara Citadel, the
+        Pension Casa Saseasca occupies a historic building dating back to the 18th century.
+        Free WiFi is available.\nAll rooms feature hand-made traditional furniture and have a
+        private bathroom.</string>
+    <string name="hotel_2_website">http://www.casasaseasca.com</string>
+
+    <string name="hotel_3_name">Hotel Korona</string>
+    <string name="hotel_3_description">
+        Offering an on-site restaurant, Hotel Korona is situated at the foot of the Mediaeval Citadel
+        of Sighisoara, a 5-minute walk from the commercial and historic centre.
+        It offers spacious accommodation with free WiFi.
+    </string>
+    <string name="hotel_3_website">www.hotelkorona.ro</string>
+
+    <string name="hotel_4_name">Hotel Casa Wagner</string>
+    <string name="hotel_4_description">
+       Casa Wagner welcomes you in an unique historic setting on the main square of the
+        UNESCO-protected old town of Sighisoara and offers you well-equipped, individually
+        decorated rooms and fine cuisine.
+        \nFrom the moment you enter the hotel rooms or you see the vaulted ceiling of the restaurant or the
+        wine cellar, you will be surrounded by a unique historic ambience.
+    </string>
+    <string name="hotel_4_website">www.casa-wagner.com</string>
+
+    <string name="hotel_5_name">Taschler Haus</string>
+    <string name="hotel_5_description">Taschler Haus offers accommodation in Sighişoara,
+        only 150 m away from the renown 14th-century Clock Tower. Free WiFi is available throughout
+        the property.\nThe rooms are fitted with a flat-screen TV and a private bathroom.
+        For your comfort, you will find free toiletries and a hairdryer. Some units feature a
+        seating area to relax in after a busy day, and a safe is available in every unit.
+    </string>
+    <string name="hotel_5_website">http://taschlerhaus.com/</string>
+
+    <!-- Restaurants fragment -->
+    <string name="restaurant_1_name">Joseph T. Restaurant &amp; Wine Bar</string>
+    <string name="restaurant_1_description">Romanian and international cuisine served in a
+        elegant setting. Best Romanian wine selection in Transylvania.
+    </string>
+    <string name="restaurant_1_website">""</string>
+
+    <string name="restaurant_2_name">Georgius Krauss House</string>
+    <string name="restaurant_2_description">
+        In the menu list are found many dishes, carefully chosen, for flavor, finesse and especially for all tastes.
+        \nThe kitchen of our house is lead by Chef Florin Mihalache, who prepares well documented plates,
+        whether it's about fine ingredients, or that we have a traditional recipe in front of us,
+        EVERY DISH HAS IT'S OWN STORY.
+    </string>
+    <string name="restaurant_2_website">www.casakrauss.ro</string>
+
+    <string name="restaurant_3_name">Gasthaus Alte Post</string>
+    <string name="restaurant_3_description">
+       "The restaurant has mainly traditional food from local cuisine (hungarian and romanian)"
+    </string>
+    <string name="restaurant_3_website">www.gasthaus-altepost.ro</string>
+
+    <string name="restaurant_4_name">Cositorarului House</string>
+    <string name="restaurant_4_description"></string>
+    <string name="restaurant_4_website">www.casa-cositorarului.ro</string>
+
+
+    <string name="restaurant_5_name">Ferdinand House</string>
+    <string name="restaurant_5_description"></string>
+    <string name="restaurant_5_website">www.casa-ferdinand.ro</string>
+
+    <!-- Cultural -->
+    <string name="cultural_1_name">Clock Tower</string>
+    <string name="cultural_1_description">The Clock Tower of Sighișoara is the main entry point to
+        the citadel, opposite guarded by Taylor\'s Tower. With its 64 meters of height, the tower
+        is visible from almost every corner of the city from Mures County, its purpose was to defend
+        the main gate of the citadel and also served as the town hall until 1556. Now It's considered
+        one of the most expressive clock tower in the whole Transylvania.</string>
+    <string name="cultural_1_website">http://sighisoaraonline.com</string>
+
+    <string name="cultural_2_name">Covered Stairs</string>
+    <string name="cultural_2_description">This is an old wood and stone staircase with a wooden
+        roof along the whole span. It has 175 wood steps and is was build in 1642 with the aim to
+        make easier access for school students to reach the Hill School.</string>
+    <string name="cultural_2_website">http://sighisoaraonline.com</string>
+
+
+    <string name="cultural_3_name">Church on the Hill</string>
+    <string name="cultural_3_description">The Church on the Hill is an architecturally significant
+        church located in Sighişoara, Mureș County in Romania.This church is the most important
+        monument of religious architecture in Sighisoara and is one of the great churches of
+        Transylvania, being the third largest.</string>
+    <string name="cultural_3_website">http://sighisoaraonline.com</string>
+
+
+    <string name="cultural_4_name">Historic Centre of Sighișoara</string>
+    <string name="cultural_4_description">The Historic Centre of Sighișoara is the old historic
+        center of the town of Sighișoara,Romania, built in the 12th century by Saxon colonists
+        under the Latin name Castrum Sex. It is an inhabited medieval citadel that, in 1999,
+        was designated a UNESCO World Heritage Site for its 850-year-old testament to the history
+        and culture of the Transylvanian Saxons.</string>
+    <string name="cultural_4_website">http://sighisoaraonline.com</string>
+
+    <string name="cultural_5_name">Sighișoara Medieval Festival</string>
+    <string name="cultural_5_description">Sighişoara Medieval Festival or Festivalul Sighişoara
+        Medievală is a Romanian festival held on the last weekend of July in Sighişoara, Romania.</string>
+    <string name="cultural_5_website">http://sighisoaraonline.com</string>
+
+    <!-- Nightlife -->
+
+
+    <string name="nightlife_1_name">Aristocrat Society Club</string>
+    <string name="nightlife_1_description"></string>
+    <string name="nightlife_1_website">www.club.club-aristocrat.ro</string>
+
+    <string name="nightlife_2_name">Voynich Cafe &amp; Pub</string>
+    <string name="nightlife_2_description"></string>
+    <string name="nightlife_2_website">www.facebook.com/voynichcafe/</string>
+
+    <string name="nightlife_3_name">Vintage Lounge</string>
+    <string name="nightlife_3_description"></string>
+    <string name="nightlife_3_website">www.sighisoaraonline.com/locatie/Vintage/85</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/restaurants_fragment"
+            android:title="Restaurants" />
+        <item
+            android:id="@+id/hotels_fragment"
+            android:title="Hotels" />
+        <item
+            android:id="@+id/cultural_fragment"
+            android:title="Cultural" />
+        <item
+            android:id="@+id/nightlife_fragment"
+            android:title="Nightlife" />
+    </group>
+
+
+</menu>
