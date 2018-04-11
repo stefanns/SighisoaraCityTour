@@ -2,6 +2,7 @@ package com.example.android.sighisoaracitytour;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.support.v7.widget.RecyclerView;
@@ -49,20 +50,20 @@ public class AttractionAdapter extends RecyclerView.Adapter<AttractionAdapter.At
         holder.logo_image.setImageBitmap(circleImage);
         holder.ratingBar.setRating(3.5f);
 
-        // play and go the PlayerActivity
-        /*
+        //play and go the PlayerActivity
+
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // send data to player activity
-                Intent musicIntent = new Intent(context, PlayerActivity.class);
+                Intent intent = new Intent(context, DetailsActivity.class);
                 //send the ArrayList
-                musicIntent.putParcelableArrayListExtra("songs", songs);
+                intent.putParcelableArrayListExtra("songs", attractions);
                 //send the position to correctly display views
-                musicIntent.putExtra("position", position);
-                context.startActivity(musicIntent);
+                intent.putExtra("position", position);
+                context.startActivity(intent);
             }
-        });*/
+        });
 
     }
 
@@ -79,6 +80,7 @@ public class AttractionAdapter extends RecyclerView.Adapter<AttractionAdapter.At
         ImageView bigImage;
         ImageView logo_image;
         RatingBar ratingBar;
+        View cardView;
 
 
         public AttractionViewHolder(View itemView) {
@@ -91,6 +93,7 @@ public class AttractionAdapter extends RecyclerView.Adapter<AttractionAdapter.At
             logo_image = itemView.findViewById(R.id.logo_attraction);
             //add rating for each attraction
             ratingBar = itemView.findViewById(R.id.rating_bar);
+            cardView = itemView.findViewById(R.id.list_card_view);
         }
     }
 }

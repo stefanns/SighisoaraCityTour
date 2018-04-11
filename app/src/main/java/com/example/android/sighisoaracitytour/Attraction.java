@@ -1,10 +1,13 @@
 package com.example.android.sighisoaracitytour;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 /**
  * Created by Stefan on 3/29/2018.
  */
 
-public class Attraction {
+public class Attraction implements Parcelable {
     private String name;
     private String website;
     private String description;
@@ -24,6 +27,27 @@ public class Attraction {
         circleImageID = circleImageID_attraction;
         rating = rating_attraction;
     }
+
+    protected Attraction(Parcel in) {
+        name = in.readString();
+        website = in.readString();
+        description = in.readString();
+        imageID = in.readInt();
+        circleImageID = in.readInt();
+        rating = in.readDouble();
+    }
+
+    public static final Creator<Attraction> CREATOR = new Creator<Attraction>() {
+        @Override
+        public Attraction createFromParcel(Parcel in) {
+            return new Attraction(in);
+        }
+
+        @Override
+        public Attraction[] newArray(int size) {
+            return new Attraction[size];
+        }
+    };
 
     //get the name of the attraction
     public String getName() {
@@ -58,5 +82,19 @@ public class Attraction {
     }
 
 
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel parcel, int i) {
+        parcel.writeString(name);
+        parcel.writeString(website);
+        parcel.writeString(description);
+        parcel.writeInt(imageID);
+        parcel.writeInt(circleImageID);
+        parcel.writeDouble(rating);
+    }
 }
 

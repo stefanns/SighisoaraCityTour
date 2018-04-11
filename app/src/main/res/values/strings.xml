@@ -127,4 +127,7 @@
     <string name="nightlife_3_name">Vintage Lounge</string>
     <string name="nightlife_3_description"></string>
     <string name="nightlife_3_website">www.sighisoaraonline.com/locatie/Vintage/85</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
