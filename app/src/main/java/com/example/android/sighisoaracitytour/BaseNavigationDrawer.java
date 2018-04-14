@@ -25,10 +25,10 @@ public class BaseNavigationDrawer extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_drawer);
+        //find and set the custom toolbar
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        // for the menu option to be active
         //Find Drawer view
         drawer = findViewById(R.id.drawer_layout);
         nvDrawer = findViewById(R.id.nvView);
@@ -58,6 +58,7 @@ public class BaseNavigationDrawer extends AppCompatActivity {
 
     }
 
+    //start fragment in case of a match
     public void selectDrawerItem(MenuItem menuItem) {
         Fragment fragment = null;
         Class fragmentClass;
@@ -75,7 +76,7 @@ public class BaseNavigationDrawer extends AppCompatActivity {
                 fragmentClass = NightlifeFragment.class;
                 break;
             default:
-                fragmentClass = RestaurantsFragment.class;
+                fragmentClass = TopPicksFragment.class;
         }
         try {
             fragment = (Fragment) fragmentClass.newInstance();
@@ -85,7 +86,6 @@ public class BaseNavigationDrawer extends AppCompatActivity {
         // Insert the fragment by replacing any existing fragment
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
-
         // Highlight the selected item has been done by NavigationView
         menuItem.setChecked(true);
         // Set action bar title
@@ -94,4 +94,7 @@ public class BaseNavigationDrawer extends AppCompatActivity {
         drawer.closeDrawers();
 
     }
+
+
 }
+

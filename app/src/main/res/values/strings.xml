@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">Sighisoara City</string>
     <!-- Hotels fragment -->
-    <string name="hotel_1_name">DoubleTree by Hilton Hotel Sighisoara - Cavaler</string>
+    <string name="hotel_1_name">Hotel Sighisoara - Cavaler</string>
     <string name="hotel_1_description">Located 200 m from the Sighișoara Citadel, listed as a World
         Heritage Site by the UNESCO, DoubleTree by Hilton Hotel Sighisoara - Cavaler offers free
         access to a spa featuring a Finnish sauna, a steam bath, and an indoor pool.
         \nAll the stylish, air-conditioned rooms provide a minibar and a flat-screen TV.
         The bathrooms come with all toiletries. Some of DoubleTree by Hilton Hotel Sighisoara -
         Cavaler’s rooms and suites have interior stairs.</string>
-    <string name="hotel_1_website">http://www.hiltonhotels.com/ro_RO/romania/doubletree-by-
+    <string name="hotel_1_website">www.hiltonhotels.com/ro_RO/romania/doubletree-by-
         hilton-hotel-sighisoara-cavaler/</string>
 
     <string name="hotel_2_name">Pension Casa Saseasca</string>
@@ -16,7 +16,7 @@
         Pension Casa Saseasca occupies a historic building dating back to the 18th century.
         Free WiFi is available.\nAll rooms feature hand-made traditional furniture and have a
         private bathroom.</string>
-    <string name="hotel_2_website">http://www.casasaseasca.com</string>
+    <string name="hotel_2_website">www.casasaseasca.com</string>
 
     <string name="hotel_3_name">Hotel Korona</string>
     <string name="hotel_3_description">
@@ -43,7 +43,7 @@
         For your comfort, you will find free toiletries and a hairdryer. Some units feature a
         seating area to relax in after a busy day, and a safe is available in every unit.
     </string>
-    <string name="hotel_5_website">http://taschlerhaus.com/</string>
+    <string name="hotel_5_website">www.taschlerhaus.com/</string>
 
     <!-- Restaurants fragment -->
     <string name="restaurant_1_name">Joseph T. Restaurant &amp; Wine Bar</string>
@@ -83,13 +83,13 @@
         is visible from almost every corner of the city from Mures County, its purpose was to defend
         the main gate of the citadel and also served as the town hall until 1556. Now It's considered
         one of the most expressive clock tower in the whole Transylvania.</string>
-    <string name="cultural_1_website">http://sighisoaraonline.com</string>
+    <string name="cultural_1_website">www.sighisoaraonline.com</string>
 
     <string name="cultural_2_name">Covered Stairs</string>
     <string name="cultural_2_description">This is an old wood and stone staircase with a wooden
         roof along the whole span. It has 175 wood steps and is was build in 1642 with the aim to
         make easier access for school students to reach the Hill School.</string>
-    <string name="cultural_2_website">http://sighisoaraonline.com</string>
+    <string name="cultural_2_website">www.sighisoaraonline.com</string>
 
 
     <string name="cultural_3_name">Church on the Hill</string>
@@ -97,7 +97,7 @@
         church located in Sighişoara, Mureș County in Romania.This church is the most important
         monument of religious architecture in Sighisoara and is one of the great churches of
         Transylvania, being the third largest.</string>
-    <string name="cultural_3_website">http://sighisoaraonline.com</string>
+    <string name="cultural_3_website">www.sighisoaraonline.com</string>
 
 
     <string name="cultural_4_name">Historic Centre of Sighișoara</string>
@@ -106,12 +106,12 @@
         under the Latin name Castrum Sex. It is an inhabited medieval citadel that, in 1999,
         was designated a UNESCO World Heritage Site for its 850-year-old testament to the history
         and culture of the Transylvanian Saxons.</string>
-    <string name="cultural_4_website">http://sighisoaraonline.com</string>
+    <string name="cultural_4_website">www.sighisoaraonline.com</string>
 
     <string name="cultural_5_name">Sighișoara Medieval Festival</string>
     <string name="cultural_5_description">Sighişoara Medieval Festival or Festivalul Sighişoara
         Medievală is a Romanian festival held on the last weekend of July in Sighişoara, Romania.</string>
-    <string name="cultural_5_website">http://sighisoaraonline.com</string>
+    <string name="cultural_5_website">www.sighisoaraonline.com</string>
 
     <!-- Nightlife -->
 
@@ -128,6 +128,4 @@
     <string name="nightlife_3_description"></string>
     <string name="nightlife_3_website">www.sighisoaraonline.com/locatie/Vintage/85</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

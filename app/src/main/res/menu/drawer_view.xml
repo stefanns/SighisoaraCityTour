@@ -5,15 +5,19 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/restaurants_fragment"
+            android:icon="@mipmap/ic_restaurants"
             android:title="Restaurants" />
         <item
             android:id="@+id/hotels_fragment"
+            android:icon="@mipmap/ic_hotels"
             android:title="Hotels" />
         <item
             android:id="@+id/cultural_fragment"
+            android:icon="@mipmap/ic_cultural"
             android:title="Cultural" />
         <item
             android:id="@+id/nightlife_fragment"
+            android:icon="@mipmap/ic_nightlife"
             android:title="Nightlife" />
     </group>
 

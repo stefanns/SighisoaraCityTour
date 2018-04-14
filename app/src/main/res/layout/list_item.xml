@@ -9,6 +9,7 @@
         android:layout_height="wrap_content"
         card_view:cardElevation="5dp"
         card_view:cardPreventCornerOverlap="false"
+        android:background="?android:attr/selectableItemBackground"
         card_view:cardUseCompatPadding="true">
 
         <LinearLayout
@@ -31,7 +32,6 @@
                 android:paddingTop="10dp">
 
                 <RatingBar
-
                     android:id="@+id/rating_bar"
                     style="@style/Widget.AppCompat.RatingBar.Small"
                     android:layout_width="wrap_content"
@@ -41,7 +41,7 @@
                     android:layout_toEndOf="@+id/logo_attraction"
                     android:layout_toRightOf="@+id/logo_attraction"
                     android:numStars="5"
-                    android:stepSize="0.5" />
+                    android:stepSize="0.2" />
 
                 <TextView
                     android:id="@+id/text_rating"
@@ -49,8 +49,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/text_name_attraction"
                     android:layout_toRightOf="@id/rating_bar"
-                    android:paddingLeft="10dp"
-                    android:text="3.5" />
+                    android:paddingLeft="10dp" />
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/logo_attraction"

@@ -41,6 +41,7 @@ public class AttractionAdapter extends RecyclerView.Adapter<AttractionAdapter.At
     //to implement this method with text views and images
     @Override
     public void onBindViewHolder(AttractionViewHolder holder, final int position) {
+        String rating; // for String value of the Rating declared as double
         // set the data in items
         holder.name.setText(attractions.get(position).getName());
         // holder.description.setText(attractions.get(position).getDescription());
@@ -48,17 +49,21 @@ public class AttractionAdapter extends RecyclerView.Adapter<AttractionAdapter.At
         holder.bigImage.setImageBitmap(bigImage);
         Bitmap circleImage = BitmapFactory.decodeResource(context.getResources(), attractions.get(position).getCircleImageID());
         holder.logo_image.setImageBitmap(circleImage);
-        holder.ratingBar.setRating(3.5f);
+        holder.ratingBar.setRating((float) attractions.get(position).getRating());
+        //convert the double to String in order to display it in text view
+        rating = Double.toString(attractions.get(position).getRating());
+        holder.ratingNumber.setText(rating);
 
-        //play and go the PlayerActivity
-
+        /*set listener to each card view in list
+        to open detail activity whenever the user click
+        */
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // send data to player activity
+                // send data to detail activity
                 Intent intent = new Intent(context, DetailsActivity.class);
                 //send the ArrayList
-                intent.putParcelableArrayListExtra("songs", attractions);
+                intent.putParcelableArrayListExtra("attractions", attractions);
                 //send the position to correctly display views
                 intent.putExtra("position", position);
                 context.startActivity(intent);
@@ -76,7 +81,7 @@ public class AttractionAdapter extends RecyclerView.Adapter<AttractionAdapter.At
     public class AttractionViewHolder extends RecyclerView.ViewHolder {
         //init item view
         TextView name;
-        TextView description;
+        TextView ratingNumber;
         ImageView bigImage;
         ImageView logo_image;
         RatingBar ratingBar;
@@ -85,6 +90,7 @@ public class AttractionAdapter extends RecyclerView.Adapter<AttractionAdapter.At
 
         public AttractionViewHolder(View itemView) {
             super(itemView);
+
             //get views
             name = itemView.findViewById(R.id.text_name_attraction);
             // description = itemView.findViewById(R.id.text_description);
@@ -94,6 +100,8 @@ public class AttractionAdapter extends RecyclerView.Adapter<AttractionAdapter.At
             //add rating for each attraction
             ratingBar = itemView.findViewById(R.id.rating_bar);
             cardView = itemView.findViewById(R.id.list_card_view);
+            //add text to display the rating in numeric value
+            ratingNumber = itemView.findViewById(R.id.text_rating);
         }
     }
 }
